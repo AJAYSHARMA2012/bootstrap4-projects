@@ -1,43 +1,19 @@
 body{
-  background: url("bg.jpg") no-repeat center center fixed;
+  background: url(../images/1.jpg) no-repeat center center fixed;
+  background-color: #464646;
   background-size: cover;
-  font-family: 'Chelsea Market', cursive;
-  min-height: 100vh;
 }
- .rowHeight{
-   height:300px;
- }
 
-  h1{
-    color: #ffc107;
-    background-color: #212427;
-  }
+#img-logo{
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 auto;
+}
 
+#login-modal .modal-dialog{
+  width: 350px;
+}
 
-  .thumbnail {
-  padding: .25rem;
-  background-color: #ffbf00;
-  /* border: 1px solid #dee2e6; */
-  border-radius: .25rem;
-  max-width: 100%;
-  /* height: auto; */
-  }
-
-  img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .footer{
-    background-color: #927979;
-    color: #ffc107;
-    margin-top: 75px;
-    margin-bottom: 0px;
-    height: 78px;
-    opacity: 0.8;
-  }
-
-  p{
-    padding: 14px;
-    font-size: 20px;
-  }
+#login-modal input[type=email], input[type=password]{
+  margin-top: 10px;
+}
